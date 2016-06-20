@@ -7,25 +7,29 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".Hoofdmenu">
+    tools:context=".Hoofdmenu"
+    android:background="#2c2828"
+    android:backgroundTint="#42619e"
+    android:clickable="false">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
-        android:id="@+id/textView" />
+        android:id="@+id/textView"
+        android:textSize="50dp"
+        android:textColor="#fbf8f8" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="Next scene"
         android:id="@+id/button"
-        android:layout_below="@+id/textView"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="72dp"
         android:clickable="true"
         android:contextClickable="true"
-        android:onClick="@string/click" />
+        android:onClick="@string/click"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp" />
 
 </RelativeLayout>
