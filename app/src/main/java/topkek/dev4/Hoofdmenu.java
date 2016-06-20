@@ -14,6 +14,7 @@ public class Hoofdmenu extends AppCompatActivity {
         setContentView(R.layout.activity_hoofdmenu);
         final Intent intent = new Intent(this,MainActivity.class );
         Button button = (Button) findViewById(R.id.button);
+        //test
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
