@@ -18,7 +18,7 @@ public class Hoofdmenu extends AppCompatActivity {
         final Intent testPageTwo = new Intent(this, MapsActivity.class);
         final Intent testPageThree = new Intent(this, ScrollingActivity.class);
 
-        //Buttons zijn logisch, je maakt een nieuwe Button -naam- aan. findViewById == ID opzoeken van de button die je wilt gebruiken
+        //Buttons  zijn logisch, je maakt een nieuwe Button -naam- aan. findViewById == ID opzoeken van de button die je wilt gebruiken
         //2x klikken op een button in XML file voor het ID
         Button button = (Button) findViewById(R.id.button);
         Button button1 = (Button) findViewById(R.id.button2);
