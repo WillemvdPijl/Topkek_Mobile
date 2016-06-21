@@ -18,7 +18,13 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
+import com.github.mikephil.charting.charts.BarChart;
+
+import java.util.ArrayList;
+
+
 public class MainActivity extends AppCompatActivity {
+
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -61,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
-
+//    BarChart barChart = (BarChart) findViewById(R.id.chart);
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -143,6 +149,7 @@ public class MainActivity extends AppCompatActivity {
             return 3;
         }
 
+
         @Override
         public CharSequence getPageTitle(int position) {
             switch (position) {
@@ -155,5 +162,6 @@ public class MainActivity extends AppCompatActivity {
             }
             return null;
         }
+
     }
 }

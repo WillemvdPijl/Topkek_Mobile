@@ -44,6 +44,10 @@
         <activity
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".barChart"
+            android:label="@string/title_activity_bar_chart"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

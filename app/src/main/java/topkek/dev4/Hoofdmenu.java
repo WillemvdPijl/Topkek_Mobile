@@ -14,7 +14,7 @@ public class Hoofdmenu extends AppCompatActivity {
         setContentView(R.layout.activity_hoofdmenu);
 
         //Intent maakt de page zelf aan final staat ervoor omdat hij het anders niet pakt in de method zelf (startActivity)
-        final Intent testPageOne = new Intent(this,MainActivity.class );
+        final Intent testPageOne = new Intent(this,barChart.class );
         final Intent testPageTwo = new Intent(this, MapsActivity.class);
         final Intent testPageThree = new Intent(this, ScrollingActivity.class);
 
@@ -47,6 +47,7 @@ public class Hoofdmenu extends AppCompatActivity {
             }
         });
     }
+
 
 
 
