@@ -35,7 +35,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Scene two"
+        android:text="Google maps"
         android:id="@+id/button2"
         android:clickable="true"
         android:contextClickable="true"
@@ -47,7 +47,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Scene three"
+        android:text="Tekst"
         android:id="@+id/button3"
         android:clickable="true"
         android:contextClickable="true"
