@@ -8,17 +8,18 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Hoofdmenu"
-    android:background="#2c2828"
-    android:backgroundTint="#42619e"
+    android:background="@drawable/wallpaper"
     android:clickable="false">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Kekkerino"
         android:id="@+id/textView"
-        android:textSize="50dp"
-        android:textColor="#fbf8f8" />
+        android:textSize="80dp"
+        android:textColor="#04ff00"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="wrap_content"
