@@ -55,4 +55,16 @@
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tekst"
+        android:id="@+id/button4"
+        android:clickable="true"
+        android:contextClickable="true"
+        android:onClick="@string/click"
+        android:layout_below="@+id/button3"
+        android:layout_alignRight="@+id/button"
+        android:layout_alignEnd="@+id/button" />
+
 </RelativeLayout>
