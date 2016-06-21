@@ -53,6 +53,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".lineChart"
+            android:screenOrientation="landscape"
             android:label="@string/title_activity_line_chart"
             android:theme="@style/AppTheme.NoActionBar" />
 

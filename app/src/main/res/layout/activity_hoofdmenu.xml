@@ -23,7 +23,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Scene one"
+        android:text="Bar chart"
         android:id="@+id/button"
         android:clickable="true"
         android:contextClickable="true"
@@ -58,7 +58,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tekst"
+        android:text="LineChart"
         android:id="@+id/button4"
         android:clickable="true"
         android:contextClickable="true"
