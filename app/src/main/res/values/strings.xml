@@ -97,4 +97,5 @@
     </string>
     <string name="title_activity_bar_chart">barChart</string>
     <string name="title_activity_line_chart" />
+    <string name="title_activity_pie_chart" />
 </resources>

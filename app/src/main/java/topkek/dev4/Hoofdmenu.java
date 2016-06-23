@@ -18,13 +18,14 @@ public class Hoofdmenu extends AppCompatActivity {
         final Intent testPageTwo = new Intent(this, MapsActivity.class);
         final Intent testPageThree = new Intent(this, ScrollingActivity.class);
         final Intent testPageFour = new Intent(this, lineChart.class);
-
+//        final Intent testPageFive = new Intent(this, pieChart.class);
         //Buttons  zijn logisch, je maakt een nieuwe Button -naam- aan. findViewById == ID opzoeken van de button die je wilt gebruiken
         //2x klikken op een button in XML file voor het ID
         Button button = (Button) findViewById(R.id.button);
         Button button1 = (Button) findViewById(R.id.button2);
         Button button2 = (Button) findViewById(R.id.button3);
         Button button3 = (Button) findViewById(R.id.button4);
+        Button button4 = (Button) findViewById(R.id.button5);
 
         //OnClick methode, gewoon kopieren als je het nodig hebt(wel namen veranderen) On buttonclick roept hij dus de intent testPageOne aan bij de eerste
         button.setOnClickListener(new View.OnClickListener() {
@@ -36,7 +37,9 @@ public class Hoofdmenu extends AppCompatActivity {
         button1.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
+
              startActivity(testPageTwo);
+
             }
 
         });
@@ -55,6 +58,13 @@ public class Hoofdmenu extends AppCompatActivity {
                 startActivity(testPageFour);
             }
         });
+//        button4.setOnClickListener( new View.OnClickListener(){
+//
+//            @Override
+//            public void onClick(View view) {
+//                startActivity(testPageFive);
+//            }
+//        });
     }
 
 
