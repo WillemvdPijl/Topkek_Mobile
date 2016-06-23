@@ -9,6 +9,7 @@ import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.data.BarData;
 import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.BarEntry;
+import com.github.mikephil.charting.interfaces.datasets.IBarDataSet;
 import com.github.mikephil.charting.utils.ColorTemplate;
 
 import java.util.ArrayList;
@@ -28,8 +29,8 @@ public class barChart extends AppCompatActivity {
         chart.invalidate();
     }
 
-    private ArrayList<BarDataSet> getDataSet() {
-        ArrayList<BarDataSet> dataSets = null;
+    private ArrayList<IBarDataSet> getDataSet() {
+        ArrayList<IBarDataSet> dataSets = null;
 
         ArrayList<BarEntry> valueSet1 = new ArrayList<>();
         BarEntry v1e1 = new BarEntry(110.000f, 0); // Jan
@@ -59,10 +60,10 @@ public class barChart extends AppCompatActivity {
         BarEntry v2e6 = new BarEntry(80.000f, 5); // Jun
         valueSet2.add(v2e6);
 
-        BarDataSet barDataSet1 = new BarDataSet(valueSet1, "Brand 1");
-        barDataSet1.setColor(Color.rgb(0, 155, 0));
-        BarDataSet barDataSet2 = new BarDataSet(valueSet2, "Brand 2");
-        barDataSet2.setColors(ColorTemplate.COLORFUL_COLORS);
+        IBarDataSet barDataSet1 = new BarDataSet(valueSet1, "Brand 1");
+        //barDataSet1.setColor(Color.rgb(0, 155, 0));
+        IBarDataSet barDataSet2 = new BarDataSet(valueSet2, "Brand 2");
+        //barDataSet2.setColors(ColorTemplate.COLORFUL_COLORS);
 
         dataSets = new ArrayList<>();
         dataSets.add(barDataSet1);
